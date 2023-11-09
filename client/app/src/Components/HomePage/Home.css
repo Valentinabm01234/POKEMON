@@ -1,0 +1,59 @@
+.home-container {
+  display: flex;
+  height: 100vh;
+  background-image: url(../../assets//img/paginado.jpg);
+   background-size: cover;
+  overflow: scroll;
+}
+
+.home-SearchBar {
+  z-index: 20;
+  background-color: #695c5c;
+  margin-top: 0%;
+  position: absolute;
+ display: flex;
+ height: 18vh;
+ width:99vw;
+}
+
+
+.home-Pokedex {
+  display: flex;
+  position: absolute;
+  margin-top: 20vh;
+  display: flex;
+  height: 80vh;
+  width:23vw;
+
+}
+.home-Paginado{
+
+  display: flex;
+  position: relative;
+  margin-top: 20vh;
+  margin-left: 24vw;
+  display: flex;
+  height: 80vh;
+  width:64vw;
+  
+  
+  
+}
+.GoForm{
+  display:flex;
+  width: 30%;
+  height: 60%;
+}
+.back{
+  width: 15%;
+  top: 5%;
+  left: 4%;
+  position: absolute;
+  z-index: 120;
+  animation: float 2s infinite ease-in-out;
+}
+
+
+
+/* Estilos para SearchBar, Pokedex y Paginado */
+/* Ajusta los estilos según tus necesidades específicas */
